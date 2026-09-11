@@ -257,6 +257,32 @@ h1, h2, h3, h4 {
 }
 .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; }
 
+/* 信任信号（替代硬数字） */
+.hero-trust {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+.hero-trust .trust {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 230px;
+}
+.hero-trust .trust b {
+  color: var(--saffron);
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.hero-trust .trust span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
 /* 关键数字条 */
 .hero-stats {
   display: flex;
@@ -779,6 +805,7 @@ table.compare .warn { color: var(--saffron-dark); font-weight: 600; }
 .guide-item .g-title:hover { color: var(--blue); }
 .guide-item .g-desc { font-size: 13.5px; color: var(--muted); margin-top: 3px; }
 .guide-item .g-arrow { color: var(--saffron-dark); font-weight: 700; flex-shrink: 0; font-size: 18px; }
+.guide-item .g-date { font-size: 12.5px; color: var(--muted); font-weight: 500; }
 
 @media (max-width: 860px) {
   .task-grid { grid-template-columns: 1fr; }
