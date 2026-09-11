@@ -652,3 +652,139 @@ table.compare .warn { color: var(--saffron-dark); font-weight: 600; }
 @media (max-width: 860px) {
   .hero-rhino { width: 300px; height: 180px; opacity: 0.07; }
 }
+
+/* ============ 首页 6 屏结构 ============ */
+
+/* 屏2：任务列表 */
+.task-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.task {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.task:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.task h3 { font-size: 18px; margin-bottom: 9px; }
+.task h3 a { color: var(--ink); }
+.task h3 a:hover { color: var(--blue); }
+.task .task-path { font-size: 13.5px; color: var(--muted); font-weight: 500; margin-bottom: 14px; }
+.task .task-path b { color: var(--saffron-dark); font-weight: 700; }
+.task .task-go { font-weight: 700; font-size: 14px; }
+
+/* 屏3：资金路径（深色块） */
+.flow-section {
+  background: var(--grad-hero);
+  color: #fff;
+  padding: 64px 0;
+  position: relative;
+  overflow: hidden;
+}
+.flow-section::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1.4px);
+  background-size: 26px 26px;
+  opacity: 0.5;
+}
+.flow-section .container { position: relative; z-index: 1; }
+.flow-section .section-head h2 { color: #fff; }
+.flow-section .section-head p { color: rgba(255,255,255,0.82); }
+.flow-section .kicker { color: #fff; background: rgba(201,162,39,0.2); }
+.flow-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 28px 0 34px;
+}
+.flow-node {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.24);
+  color: #fff;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+.flow-node.gold { background: var(--grad-saffron); border-color: transparent; }
+.flow-arrow { color: var(--saffron); font-weight: 700; font-size: 15px; }
+.flow-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.flow-step {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+.flow-step .step-num {
+  font-size: 11.5px; font-weight: 700;
+  color: var(--saffron);
+  letter-spacing: 0.05em; text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.flow-step h3 { color: #fff; font-size: 16px; margin-bottom: 6px; }
+.flow-step p { color: rgba(255,255,255,0.78); font-size: 13.5px; margin-bottom: 12px; }
+.flow-step a { color: #fff; font-weight: 700; font-size: 13.5px; }
+
+/* 屏5：SARS / FSCA 双栏 */
+.dual-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--saffron);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  box-shadow: var(--shadow-sm);
+}
+.panel .panel-tag {
+  display: inline-block;
+  font-size: 11.5px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--saffron-dark);
+  background: var(--saffron-soft);
+  padding: 4px 11px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+.panel h3 { font-size: 18px; margin-bottom: 8px; }
+.panel p { color: var(--muted); font-size: 14px; }
+
+/* 屏6：指南列表 */
+.guide-list { border-top: 1px solid var(--border); }
+.guide-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 4px;
+  border-bottom: 1px solid var(--border);
+}
+.guide-item .g-body { min-width: 0; }
+.guide-item .g-title { font-weight: 700; font-size: 16px; color: var(--ink); }
+.guide-item .g-title:hover { color: var(--blue); }
+.guide-item .g-desc { font-size: 13.5px; color: var(--muted); margin-top: 3px; }
+.guide-item .g-arrow { color: var(--saffron-dark); font-weight: 700; flex-shrink: 0; font-size: 18px; }
+
+@media (max-width: 860px) {
+  .task-grid { grid-template-columns: 1fr; }
+  .flow-steps { grid-template-columns: 1fr 1fr; }
+  .dual-panel { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .flow-steps { grid-template-columns: 1fr; }
+}
