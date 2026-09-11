@@ -4,28 +4,28 @@
    ============================================================ */
 
 :root {
-  --blue:        #0A6B4F;   /* 南非深翡翠绿 */
-  --blue-dark:   #073D2E;   /* 近黑绿 */
-  --blue-soft:   #E7F2EE;   /* 浅绿底 */
-  --saffron:     #E3A51C;   /* 金 (rand/gold) */
-  --saffron-dark:#B87E0A;
-  --saffron-soft:#FBF3DF;
-  --peacock:     #14785A;   /* 次级绿 */
-  --peacock-soft:#E7F2EE;
+  --blue:        #007A4D;   /* 南非兰特绿（国旗绿 3415C） */
+  --blue-dark:   #00533A;   /* 深兰特绿 */
+  --blue-soft:   #E6F2ED;   /* 浅绿底 */
+  --saffron:     #C9A227;   /* Krugerrand 22K 金币金 */
+  --saffron-dark:#A07E15;
+  --saffron-soft:#F8F1DB;
+  --peacock:     #0E9D6E;   /* 亮绿 */
+  --peacock-soft:#E6F2ED;
   --ivory:       #FAF8F2;
   --card:        #FFFFFF;
   --ink:         #1F2420;
   --muted:       #66706A;
   --border:      #E5E1D4;
 
-  --grad-hero:   linear-gradient(135deg, #052E23 0%, #0A6B4F 52%, #14785A 100%);
-  --grad-saffron:linear-gradient(135deg, #F0B429 0%, #E3A51C 55%, #C98A0E 100%);
-  --grad-peacock:linear-gradient(135deg, #12876A 0%, #0A6B4F 100%);
+  --grad-hero:   linear-gradient(135deg, #003E2B 0%, #007A4D 52%, #0E9D6E 100%);
+  --grad-saffron:linear-gradient(135deg, #E0B23A 0%, #C9A227 55%, #A07E15 100%);
+  --grad-peacock:linear-gradient(135deg, #12A877 0%, #007A4D 100%);
 
   --radius: 16px;
   --radius-lg: 24px;
-  --shadow-sm: 0 1px 2px rgba(10, 107, 79, 0.06);
-  --shadow-md: 0 10px 26px rgba(10, 107, 79, 0.12);
+  --shadow-sm: 0 1px 2px rgba(0, 122, 77, 0.06);
+  --shadow-md: 0 10px 26px rgba(0, 122, 77, 0.12);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -75,11 +75,11 @@ h1, h2, h3, h4 {
 .btn-primary {
   background: var(--grad-saffron);
   color: #fff;
-  box-shadow: 0 6px 16px rgba(232, 138, 26, 0.32);
+  box-shadow: 0 6px 16px rgba(201, 162, 39,0.32);
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(232, 138, 26, 0.42);
+  box-shadow: 0 10px 22px rgba(201, 162, 39,0.42);
   color: #fff;
 }
 .btn-secondary {
@@ -226,7 +226,7 @@ h1, h2, h3, h4 {
   right: -150px; top: -150px;
   width: 480px; height: 480px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(227, 165, 28, 0.40), transparent 64%);
+  background: radial-gradient(circle, rgba(201, 162, 39, 0.40), transparent 64%);
 }
 .hero .container { position: relative; z-index: 1; }
 .hero .eyebrow {
@@ -236,8 +236,8 @@ h1, h2, h3, h4 {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fff;
-  background: rgba(232, 138, 26, 0.22);
-  border: 1px solid rgba(232, 138, 26, 0.5);
+  background: rgba(201, 162, 39,0.22);
+  border: 1px solid rgba(201, 162, 39,0.5);
   padding: 6px 14px;
   border-radius: 999px;
   margin-bottom: 18px;
@@ -630,4 +630,25 @@ table.compare .warn { color: var(--saffron-dark); font-weight: 600; }
   .hero { padding: 48px 0 110px; }
   .section-head { flex-direction: column; align-items: flex-start; }
   .hero-stats { gap: 24px; }
+}
+
+/* ============ 南非本地装饰（兰特绿金 + Ndebele 纹 + Big Five 犀牛） ============ */
+.hero-rhino {
+  position: absolute;
+  right: -20px;
+  bottom: 14px;
+  width: 440px;
+  height: 260px;
+  fill: #fff;
+  opacity: 0.09;
+  pointer-events: none;
+  z-index: 1;
+}
+.ndebele-strip {
+  display: block;
+  width: 100%;
+  height: 26px;
+}
+@media (max-width: 860px) {
+  .hero-rhino { width: 300px; height: 180px; opacity: 0.07; }
 }

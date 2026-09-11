@@ -10,23 +10,23 @@ import os
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 FAVICON = ("<link rel=\"icon\" href='data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" "
-           "viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"48\" fill=\"%230A6B4F\"/>"
+           "viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"48\" fill=\"%23007A4D\"/>"
            "<text x=\"50\" y=\"68\" font-size=\"54\" font-weight=\"bold\" text-anchor=\"middle\" "
-           "fill=\"%23E3A51C\" font-family=\"Arial\">R</text></svg>'>")
+           "fill=\"%23C9A227\" font-family=\"Arial\">R</text></svg>'>")
 
 FONTS = ('  <link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">')
 
 LOGO = ('<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">'
-        '<circle cx="16" cy="16" r="15" fill="#0A6B4F"/>'
-        '<path d="M8 20 L13 15 L17 17 L24 10" fill="none" stroke="#E3A51C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
-        '<path d="M20.5 10 L24 10 L24 13.5" fill="none" stroke="#E3A51C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+        '<circle cx="16" cy="16" r="15" fill="#007A4D"/>'
+        '<path d="M8 20 L13 15 L17 17 L24 10" fill="none" stroke="#C9A227" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
+        '<path d="M20.5 10 L24 10 L24 13.5" fill="none" stroke="#C9A227" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 LOGO_FOOT = ('<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">'
-             '<circle cx="16" cy="16" r="15" fill="#E3A51C"/>'
-             '<path d="M8 20 L13 15 L17 17 L24 10" fill="none" stroke="#073D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
-             '<path d="M20.5 10 L24 10 L24 13.5" fill="none" stroke="#073D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+             '<circle cx="16" cy="16" r="15" fill="#C9A227"/>'
+             '<path d="M8 20 L13 15 L17 17 L24 10" fill="none" stroke="#00533A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
+             '<path d="M20.5 10 L24 10 L24 13.5" fill="none" stroke="#00533A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 NAV = [
     ("Start Here", "start-here/", [
@@ -144,6 +144,16 @@ def header(p, active_label, title, desc, canonical):
 def footer(p):
     return f'''
   <footer class="site-footer">
+    <svg class="ndebele-strip" viewBox="0 0 1440 26" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <pattern id="ndebele" width="40" height="26" patternUnits="userSpaceOnUse">
+          <rect width="40" height="26" fill="#003E2B"/>
+          <path d="M0 26 L10 8 L20 26 Z" fill="#C9A227"/>
+          <path d="M20 26 L30 4 L40 26 Z" fill="#0E9D6E"/>
+        </pattern>
+      </defs>
+      <rect width="1440" height="26" fill="url(#ndebele)"/>
+    </svg>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col footer-brand">
