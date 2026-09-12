@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Transfers &amp; Networks | RandTrail</title>
-  <meta name="description" content="How to send and receive crypto safely — choosing the right network, checking addresses, and what happens if you use the wrong one.">
+  <title>Crypto Transfers &amp; Networks in South Africa: How to Send Safely | RandTrail</title>
+  <meta name="description" content="How to send and receive crypto safely — choosing the right network, the memo/tag rules, what a transfer really costs, and what to do if you use the wrong network.">
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="%23007A4D"/><text x="50" y="68" font-size="54" font-weight="bold" text-anchor="middle" fill="%23C9A227" font-family="Arial">R</text></svg>'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,19 +32,108 @@
   </header>
   <main class="container page">
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&rsaquo;</span> <a href="../">Wallets &amp; Safety</a> <span class="sep">&rsaquo;</span> <span class="current">Transfers &amp; Networks</span></nav>
-    <h1>Crypto Transfers &amp; Networks</h1>
+    <h1>Crypto Transfers &amp; Networks in South Africa</h1>
     <p class="updated">Last updated: 12 September 2026</p>
 
-    <p class="lede">The most important rule in crypto transfers: the <strong>network must match on both sides</strong>. The same asset can exist on several networks — for example USDT on TRC-20 (Tron), ERC-20 (Ethereum) or BEP-20 (BNB Smart Chain) — and sending to the wrong one can mean the funds are lost for good.</p>
-    <p>Networks differ mainly in speed and cost. TRC-20 transfers are typically cheap, while ERC-20 transfers are often more expensive. But the cheapest option is only correct if the receiving wallet supports that same network, so always check the destination first rather than defaulting to the lowest fee.</p>
-    <p>Before you send, check four things: the asset, the network, the full address, and any memo or tag the destination requires. Send a small test amount first for a larger transfer. If the address or network is wrong, the transaction usually cannot be reversed.</p>
-    <h2>Related guides</h2>
-    <ul>
-      <li><a href="../crypto-wallets/">Crypto wallets</a> — how addresses and networks fit together.</li>
-      <li><a href="../../buy-sell/how-to-buy-usdt-south-africa/">How to buy USDT with ZAR</a> — includes what to check when moving USDT.</li>
-      <li><a href="../../buy-sell/how-to-withdraw-from-binance/">How to withdraw from Binance</a> — withdrawing to an external wallet.</li>
-    </ul>
+    <p class="lede">The single rule that governs every crypto transfer is: <strong>the network must match on both sides.</strong> The same asset — USDT, for example — exists on several different blockchains (TRC-20, ERC-20, BEP-20, Solana and more), and sending to the wrong one usually means the funds are lost for good. Everything else in this guide is a way of making sure that one rule is never broken.</p>
+    <p>Networks differ in cost and speed, and those numbers change over time. But the cheapest network is only correct if the receiving wallet or exchange supports that same network. So the receiving side decides the network — not the fee.</p>
 
+    <div class="summary-box">
+      <h2>Quick answer</h2>
+      <ul>
+        <li><strong>Match the network</strong> — the network you select when sending must equal the one the recipient selected. A mismatch usually cannot be reversed.</li>
+        <li><strong>Check four things</strong> before every transfer: the asset, the network, the full address, and any memo/tag.</li>
+        <li><strong>Memo/tag</strong> — required for some assets (XRP, XLM, ATOM, EOS, BNB and others); leaving it out or getting it wrong stops the deposit being credited.</li>
+        <li><strong>Fees</strong> — a network fee plus, on an exchange, a withdrawal fee. The fee shown at the time of sending is what counts.</li>
+        <li><strong>Wrong network is the serious one</strong> — a missing memo is often recoverable; a wrong network usually is not. Prevent it, do not plan to fix it.</li>
+      </ul>
+    </div>
+
+    <h2>What a &ldquo;network&rdquo; actually is</h2>
+    <p>A coin&rsquo;s name is not enough to move it. USDT is issued on several independent blockchains, and each one has its own addresses and its own rules. Sending USDT &ldquo;on TRC-20&rdquo; is a completely different transaction from USDT &ldquo;on ERC-20&rdquo;, even though the token looks identical. The four you will meet most often as a South African user:</p>
+    <div class="table-wrap">
+      <table class="compare">
+        <tr><th>Network</th><th>Common assets</th><th>Address format</th><th>Native fee token</th></tr>
+        <tr><td>TRC-20 (Tron)</td><td>USDT, USDC</td><td>Starts with &ldquo;T&rdquo;</td><td>TRX</td></tr>
+        <tr><td>ERC-20 (Ethereum)</td><td>USDT, USDC, ETH</td><td>Starts with &ldquo;0x&rdquo;</td><td>ETH</td></tr>
+        <tr><td>BEP-20 (BNB Smart Chain)</td><td>USDT, USDC, BNB</td><td>Starts with &ldquo;0x&rdquo;</td><td>BNB</td></tr>
+        <tr><td>Solana</td><td>USDT, USDC, SOL</td><td>~44-char alphanumeric</td><td>SOL</td></tr>
+      </table>
+    </div>
+    <p class="table-note">This is the durable picture, not a fee guide. Costs and speeds change, and not every exchange supports every network for every asset.</p>
+    <p>Notice the trap in that table: <strong>ERC-20 and BEP-20 addresses both start with &ldquo;0x&rdquo;</strong>. The address format alone cannot tell you which chain you are on, so you must confirm the network explicitly — the &ldquo;0x&rdquo; addresses are where most wrong-network mistakes happen.</p>
+
+    <h2>The two checks that prevent most losses</h2>
+    <ol>
+      <li><strong>Confirm the network name, not just the coin name.</strong> On the sending side, choose the same network the recipient told you to use. A receiving exchange shows a specific network list on its deposit screen — pick from that list, not from habit.</li>
+      <li><strong>Copy-paste the address, then check the first and last few characters.</strong> A clipped or auto-corrected address usually fails, but a typo that lands on a valid address is permanent. Do not retype addresses by hand.</li>
+    </ol>
+
+    <h2>Memo / tag: the second address</h2>
+    <p>Some blockchains give many users one <strong>shared deposit address</strong>, and use a <strong>memo</strong> (also called a <em>tag</em>, <em>destination tag</em> or <em>note</em>) to work out whose funds are whose. Assets that commonly require a memo include <strong>XRP, XLM, ATOM, EOS and BNB</strong> (and a longer list Binance maintains). If your deposit screen shows a memo field, it is <strong>mandatory</strong>, not optional.</p>
+    <ul>
+      <li><strong>No memo shown = no memo needed.</strong> Only fill it in when the deposit screen displays one.</li>
+      <li><strong>Missing or wrong memo</strong> — the funds usually reach the right address on the right network, but the exchange cannot credit them automatically. This is generally more recoverable than a wrong network; Binance has a <a href="https://www.binance.com/en/support/faq/detail/40b87335db904481888ef406b105442b" rel="noopener">self-service retrieval</a> for missing or wrong tag/memo deposits, which refunds to the original sending address after a network-fee deduction.</li>
+      <li><strong>Memo belonging to another user</strong> — the deposit may be credited to that user, and the exchange generally cannot help. Get the memo right the first time.</li>
+    </ul>
+    <p>On OKX, the deposit screen shows the address and tag together (with a warning for assets that need one) — see OKX&rsquo;s <a href="https://www.okx.com/help/how-do-i-find-my-deposit-address-and-tag-memos" rel="noopener">address and tag guide</a>.</p>
+
+    <h2>How to deposit crypto</h2>
+    <ol>
+      <li>Open <strong>Deposit</strong> and choose the coin (e.g. USDT).</li>
+      <li>Select the <strong>network</strong> from the list the app shows. Note that a platform may not support every network for a given asset — OKX&rsquo;s deposit guide, for instance, has flagged that BSC-based USDT deposits are not supported — so choose from what is actually listed.</li>
+      <li>Copy the <strong>address</strong>, and the <strong>memo/tag</strong> if one is shown.</li>
+      <li>On the sending side, pick the <strong>same network</strong> and paste both fields, then send a <strong>small test amount first</strong> for a first-time or large transfer.</li>
+    </ol>
+
+    <h2>How to withdraw crypto</h2>
+    <ol>
+      <li>Open <strong>Withdraw</strong>, choose the coin and enter the destination address from the receiving wallet or exchange.</li>
+      <li>Select the <strong>network the receiving side supports</strong> — check the receiving side first, because it is what decides the network.</li>
+      <li>Enter any <strong>memo/tag</strong> the destination requires.</li>
+      <li>Review the <strong>fee</strong> and the amount you will receive, then confirm (usually with 2FA and a code sent to your email or authenticator).</li>
+    </ol>
+    <p>For the full Binance withdrawal flow, including the self-custody option, see <a href="../../buy-sell/how-to-withdraw-from-binance/">How to withdraw from Binance</a>.</p>
+
+    <h2>What a transfer actually costs</h2>
+    <p>Two separate charges can apply, and people often confuse them:</p>
+    <ul>
+      <li><strong>The network fee</strong> — paid to the blockchain, not the exchange. It varies by network and by how busy the network is. Ethereum fees in particular rise and fall sharply with congestion; others tend to be more stable. The number shown at the time of sending is the one that counts.</li>
+      <li><strong>The exchange withdrawal fee</strong> — charged by the platform on top, and set per asset and network. It can change without notice, so check the fee shown on the withdrawal screen rather than relying on an old figure.</li>
+    </ul>
+    <p>One hidden cost to know: to move a token on a network, the fee is paid in that network&rsquo;s <strong>native token</strong> — TRX on Tron, ETH on Ethereum, BNB on BNB Smart Chain, SOL on Solana. In a self-custody wallet you need a small balance of that native token to cover the fee, which surprises new users. See <a href="../crypto-wallets/">crypto wallets</a> for how addresses, networks and balances fit together.</p>
+
+    <h2>What happens if you get it wrong</h2>
+    <p>The consequences are not all equal, and knowing the difference tells you whether to panic or just file a ticket:</p>
+    <ul>
+      <li><strong>Wrong network (to an exchange)</strong> — the most serious. The deposit usually cannot be credited automatically and is generally unrecoverable. Contact the receiving exchange&rsquo;s support immediately with the TxID; some will attempt a manual recovery for a fee, but treat this as a long shot, not a plan. Binance&rsquo;s <a href="https://www.binance.com/en/support/faq/detail/22c5be4c4753453981c182c4a6669896" rel="noopener">unsuccessful withdrawal FAQ</a> covers what it can and cannot assist with.</li>
+      <li><strong>Wrong network (to your own wallet)</strong> — often recoverable. If you sent to an address you control on a different compatible chain, adding that network to your wallet usually surfaces the funds.</li>
+      <li><strong>Missing or wrong memo</strong> — the funds reached the right address and network, so this is usually recoverable through the platform&rsquo;s retrieval process (see the memo section above).</li>
+      <li><strong>Wrong address (a valid but incorrect one)</strong> — usually permanent. No one can force a return from a stranger&rsquo;s address.</li>
+      <li><strong>Invalid address</strong> — most wallets reject it before sending, which is your safety net.</li>
+    </ul>
+    <p>Anyone who contacts you offering &ldquo;guaranteed recovery&rdquo; or asking for your seed phrase or an upfront payment is a scammer. See <a href="../scam-prevention/">scam prevention for crypto</a> for the full list.</p>
+
+    <h2>The pre-send checklist</h2>
+    <ul class="check-list">
+      <li>The asset is correct.</li>
+      <li>The network matches on both sides.</li>
+      <li>The address is pasted (not typed) and I have checked the first and last few characters.</li>
+      <li>The memo/tag is filled in if (and only if) the destination requires it.</li>
+      <li>I have checked the fee and the amount I will receive.</li>
+      <li>For a large or first-time transfer, I have sent a small test amount first.</li>
+    </ul>
+    <p>Whitelisting a withdrawal address in <a href="../account-security/">your account security settings</a> adds one more layer: a new address cannot receive withdrawals without a confirmation step, which blocks the most common attack of a hacked account draining funds to an attacker&rsquo;s address.</p>
+
+    <div class="cta-box">
+      <h2>Moving USDT between platforms?</h2>
+      <p>Whether you are funding a wallet, moving USDT to P2P or cashing out, the same rule applies — match the network and check the fee before you send. Both Binance and OKX let you hold and move USDT across multiple networks.</p>
+      <p style="margin-bottom:14px;">
+        <a href="https://www.binance.com/join?ref=BN522" class="btn btn-primary" rel="nofollow sponsored noopener" target="_blank">Use Binance &rarr;</a>
+        <a href="https://www.okx.com/join/OK800" class="btn btn-ghost" rel="nofollow sponsored noopener" target="_blank" style="color:#fff;border-color:rgba(255,255,255,0.4);">Use OKX &rarr;</a>
+      </p>
+      <p class="cta-disclosure"><strong>Affiliate disclosure:</strong> These are affiliate links. If you sign up through them, RandTrail may earn a commission at no additional cost to you. This does not affect our guides or editorial conclusions. See our <a href="../../affiliate-disclosure.html">affiliate disclosure</a>.</p>
+    </div>
   </main>
 
   <footer class="site-footer">
