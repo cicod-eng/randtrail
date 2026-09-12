@@ -35,17 +35,17 @@
     <h1>Crypto Transfers &amp; Networks in South Africa</h1>
     <p class="updated">Last updated: 12 September 2026</p>
 
-    <p class="lede">The single rule that governs every crypto transfer is: <strong>the network must match on both sides.</strong> The same asset — USDT, for example — exists on several different blockchains (TRC-20, ERC-20, BEP-20, Solana and more), and sending to the wrong one usually means the funds are lost for good. Everything else in this guide is a way of making sure that one rule is never broken.</p>
+    <p class="lede">The single rule that governs every crypto transfer is: <strong>the network must match on both sides.</strong> The same asset — USDT, for example — exists on several different blockchains (TRC-20, ERC-20, BEP-20, Solana and more), and choosing the wrong network can make a deposit fail to appear and may result in permanent loss — especially when the receiving platform does not support that network. Recovery is sometimes possible, but it should never be assumed. Everything else in this guide is a way of making sure that one rule is never broken.</p>
     <p>Networks differ in cost and speed, and those numbers change over time. But the cheapest network is only correct if the receiving wallet or exchange supports that same network. So the receiving side decides the network — not the fee.</p>
 
     <div class="summary-box">
       <h2>Quick answer</h2>
       <ul>
-        <li><strong>Match the network</strong> — the network you select when sending must equal the one the recipient selected. A mismatch usually cannot be reversed.</li>
+        <li><strong>Match the network</strong> — the network you select when sending must equal the one the recipient selected. A mismatch can be difficult or impossible to recover, depending on the receiving wallet or exchange.</li>
         <li><strong>Check four things</strong> before every transfer: the asset, the network, the full address, and any memo/tag.</li>
         <li><strong>Memo/tag</strong> — required for some assets (XRP, XLM, ATOM, EOS, BNB and others); leaving it out or getting it wrong stops the deposit being credited.</li>
         <li><strong>Fees</strong> — a network fee plus, on an exchange, a withdrawal fee. The fee shown at the time of sending is what counts.</li>
-        <li><strong>Wrong network is the serious one</strong> — a missing memo is often recoverable; a wrong network usually is not. Prevent it, do not plan to fix it.</li>
+        <li><strong>Wrong network is the serious one</strong> — a missing or wrong memo may be recoverable on some exchanges but is not guaranteed, while a wrong-network transfer is often harder to recover. Prevent it, do not plan to fix it.</li>
       </ul>
     </div>
 
@@ -66,14 +66,14 @@
     <h2>The two checks that prevent most losses</h2>
     <ol>
       <li><strong>Confirm the network name, not just the coin name.</strong> On the sending side, choose the same network the recipient told you to use. A receiving exchange shows a specific network list on its deposit screen — pick from that list, not from habit.</li>
-      <li><strong>Copy-paste the address, then check the first and last few characters.</strong> A clipped or auto-corrected address usually fails, but a typo that lands on a valid address is permanent. Do not retype addresses by hand.</li>
+      <li><strong>Copy the address and check the first and last several characters before sending.</strong> Do not type a long crypto address manually, and make sure the pasted address has not changed unexpectedly.</li>
     </ol>
 
     <h2>Memo / tag: the second address</h2>
-    <p>Some blockchains give many users one <strong>shared deposit address</strong>, and use a <strong>memo</strong> (also called a <em>tag</em>, <em>destination tag</em> or <em>note</em>) to work out whose funds are whose. Assets that commonly require a memo include <strong>XRP, XLM, ATOM, EOS and BNB</strong> (and a longer list Binance maintains). If your deposit screen shows a memo field, it is <strong>mandatory</strong>, not optional.</p>
+    <p>Some blockchains give many users one <strong>shared deposit address</strong>, and use a <strong>memo</strong> (also called a <em>tag</em>, <em>destination tag</em> or <em>note</em>) to work out whose funds are whose. Assets that commonly require a memo include <strong>XRP, XLM, ATOM, EOS and BNB</strong> (and a longer list Binance maintains) — but do not memorise a list of coins that &ldquo;need a memo&rdquo;. The deposit screen is authoritative: if the receiving platform shows a tag/memo/comment field, copy it exactly, because leaving it out can stop the deposit from being credited.</p>
     <ul>
       <li><strong>No memo shown = no memo needed.</strong> Only fill it in when the deposit screen displays one.</li>
-      <li><strong>Missing or wrong memo</strong> — the funds usually reach the right address on the right network, but the exchange cannot credit them automatically. This is generally more recoverable than a wrong network; Binance has a <a href="https://www.binance.com/en/support/faq/detail/40b87335db904481888ef406b105442b" rel="noopener">self-service retrieval</a> for missing or wrong tag/memo deposits, which refunds to the original sending address after a network-fee deduction.</li>
+      <li><strong>Missing or wrong memo</strong> — the funds usually reach the right address on the right network, but the exchange cannot credit them automatically. Recovery may be available on some exchanges but is not guaranteed: Binance has a <a href="https://www.binance.com/en/support/faq/detail/40b87335db904481888ef406b105442b" rel="noopener">self-service retrieval</a> for wrong or missing tag/memo deposits, while <a href="https://www.okx.com/help/why-do-i-need-to-fill-in-tags-tagmemo-when-i-withdraw-or-deposit-certain-cryptos" rel="noopener">OKX warns</a> that a missing tag can lead to permanent loss.</li>
       <li><strong>Memo belonging to another user</strong> — the deposit may be credited to that user, and the exchange generally cannot help. Get the memo right the first time.</li>
     </ul>
     <p>On OKX, the deposit screen shows the address and tag together (with a warning for assets that need one) — see OKX&rsquo;s <a href="https://www.okx.com/help/how-do-i-find-my-deposit-address-and-tag-memos" rel="noopener">address and tag guide</a>.</p>
@@ -98,16 +98,16 @@
     <h2>What a transfer actually costs</h2>
     <p>Two separate charges can apply, and people often confuse them:</p>
     <ul>
-      <li><strong>The network fee</strong> — paid to the blockchain, not the exchange. It varies by network and by how busy the network is. Ethereum fees in particular rise and fall sharply with congestion; others tend to be more stable. The number shown at the time of sending is the one that counts.</li>
-      <li><strong>The exchange withdrawal fee</strong> — charged by the platform on top, and set per asset and network. It can change without notice, so check the fee shown on the withdrawal screen rather than relying on an old figure.</li>
+      <li><strong>On-chain network cost</strong> — when you send from a self-custody wallet, the blockchain requires a network fee paid in the chain&rsquo;s native token (TRX on Tron, ETH on Ethereum, BNB on BNB Smart Chain, SOL on Solana). It varies by network and by how busy the network is — Ethereum fees in particular rise and fall sharply with congestion, while others tend to be more stable. In a self-custody wallet you need a small balance of that native token to cover the fee, which surprises new users.</li>
+      <li><strong>Exchange withdrawal fee</strong> — when withdrawing from a centralised exchange, the platform sets the fee shown to you for that asset and network. It may not equal the blockchain fee exactly, and it can change without notice, so check the figure on the withdrawal screen rather than relying on an old number.</li>
     </ul>
-    <p>One hidden cost to know: to move a token on a network, the fee is paid in that network&rsquo;s <strong>native token</strong> — TRX on Tron, ETH on Ethereum, BNB on BNB Smart Chain, SOL on Solana. In a self-custody wallet you need a small balance of that native token to cover the fee, which surprises new users. See <a href="../crypto-wallets/">crypto wallets</a> for how addresses, networks and balances fit together.</p>
+    <p>See <a href="../crypto-wallets/">crypto wallets</a> for how addresses, networks and balances fit together.</p>
 
     <h2>What happens if you get it wrong</h2>
     <p>The consequences are not all equal, and knowing the difference tells you whether to panic or just file a ticket:</p>
     <ul>
-      <li><strong>Wrong network (to an exchange)</strong> — the most serious. The deposit usually cannot be credited automatically and is generally unrecoverable. Contact the receiving exchange&rsquo;s support immediately with the TxID; some will attempt a manual recovery for a fee, but treat this as a long shot, not a plan. Binance&rsquo;s <a href="https://www.binance.com/en/support/faq/detail/22c5be4c4753453981c182c4a6669896" rel="noopener">unsuccessful withdrawal FAQ</a> covers what it can and cannot assist with.</li>
-      <li><strong>Wrong network (to your own wallet)</strong> — often recoverable. If you sent to an address you control on a different compatible chain, adding that network to your wallet usually surfaces the funds.</li>
+      <li><strong>Wrong network (to an exchange)</strong> — the most serious. The deposit usually cannot be credited automatically, and recovery depends on the receiving platform and the networks involved. Contact the receiving exchange&rsquo;s support immediately with the TxID; some will attempt a manual recovery for a fee, but treat this as a long shot, not a plan. Binance&rsquo;s <a href="https://www.binance.com/en/support/faq/detail/22c5be4c4753453981c182c4a6669896" rel="noopener">unsuccessful withdrawal FAQ</a> covers what it can and cannot assist with, and its <a href="https://www.binance.com/en/academy/articles/how-to-recover-crypto-transferred-to-the-wrong-network-on-binance" rel="noopener">Academy guide</a> explains the cases where a wrong-network transfer might be recoverable.</li>
+      <li><strong>Wrong network (to a wallet you control)</strong> — recovery may be possible, particularly between compatible EVM networks where you control the private key. Do not assume this works across unrelated blockchains.</li>
       <li><strong>Missing or wrong memo</strong> — the funds reached the right address and network, so this is usually recoverable through the platform&rsquo;s retrieval process (see the memo section above).</li>
       <li><strong>Wrong address (a valid but incorrect one)</strong> — usually permanent. No one can force a return from a stranger&rsquo;s address.</li>
       <li><strong>Invalid address</strong> — most wallets reject it before sending, which is your safety net.</li>
