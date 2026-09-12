@@ -1,0 +1,51 @@
+# RandTrail
+
+> Practical guides to buying, selling, storing and using crypto, written for South Africa. Covers ZAR funding, exchange choice (Binance and OKX), tax (SARS/CARF) and safety — for South African users.
+
+## Core pages
+- [Home](https://randtrail.com/): Overview and entry points to the main guides.
+- [Start Here](https://randtrail.com/start-here/): Where to begin with crypto in South Africa.
+- [Exchanges](https://randtrail.com/exchanges/): How to choose a crypto exchange in South Africa.
+- [Buy & Sell](https://randtrail.com/buy-sell/): Buying, selling and moving ZAR in and out of crypto.
+- [Wallets & Safety](https://randtrail.com/wallets-safety/): Storing crypto safely and avoiding scams.
+- [Tax & Regulation](https://randtrail.com/tax-regulation/): Tax, SARS and the legal status of crypto in South Africa.
+
+## Exchanges
+- [Binance South Africa Review](https://randtrail.com/exchanges/binance/): Fees, ZAR deposit routes, safety and who Binance suits.
+- [How to Open a Binance Account](https://randtrail.com/exchanges/binance/open-account/): Step-by-step account opening in South Africa.
+- [OKX South Africa Review](https://randtrail.com/exchanges/okx/): Fees, ZAR access, safety and who OKX suits.
+- [How to Open an OKX Account](https://randtrail.com/exchanges/okx/open-account/): Step-by-step account opening in South Africa.
+- [Binance vs OKX](https://randtrail.com/exchanges/binance-vs-okx/): Fees, ZAR access and which exchange to choose.
+
+## Buy & Sell
+- [How to Buy USDT with ZAR](https://randtrail.com/buy-sell/how-to-buy-usdt-south-africa/): Buying USDT with rands on Binance and OKX.
+- [How to Deposit ZAR on Binance](https://randtrail.com/buy-sell/how-to-deposit-zar-on-binance/): ZAR deposit methods, steps and fees.
+- [How to Withdraw from Binance](https://randtrail.com/buy-sell/how-to-withdraw-from-binance/): Cashing out to a South African bank account.
+- [P2P Trading](https://randtrail.com/buy-sell/p2p/): How peer-to-peer ZAR trades work and how to stay safe.
+- [Buy Crypto](https://randtrail.com/buy-sell/buy-crypto/): Overview of buying crypto in South Africa.
+- [Sell Crypto](https://randtrail.com/buy-sell/sell-crypto/): Overview of selling crypto for rand.
+- [ZAR Deposits](https://randtrail.com/buy-sell/zar-deposits/): Overview of rand deposit options.
+- [Withdrawals](https://randtrail.com/buy-sell/withdrawals/): Overview of cashing out to a bank.
+
+## Wallets & Safety
+- [Crypto Wallets](https://randtrail.com/wallets-safety/crypto-wallets/): Types of wallets and how to pick one.
+- [Account Security](https://randtrail.com/wallets-safety/account-security/): 2FA, passwords and keeping your account safe.
+- [Transfers & Networks](https://randtrail.com/wallets-safety/transfers-networks/): Sending crypto on the right network, memos and tags.
+- [Scam Prevention](https://randtrail.com/wallets-safety/scam-prevention/): Spotting and reporting crypto scams in South Africa.
+
+## Tax & Regulation
+- [Crypto Tax](https://randtrail.com/tax-regulation/crypto-tax/): SARS rules, income vs capital gains and what is taxable.
+- [SARS and Crypto](https://randtrail.com/tax-regulation/sars/): How SARS classifies crypto and CARF reporting.
+- [Is Binance Legal in South Africa?](https://randtrail.com/tax-regulation/is-binance-legal-south-africa/): FSCA status, licensing and tax.
+- [FSCA & CASP](https://randtrail.com/tax-regulation/fsca-casp/): Crypto-asset service provider licensing.
+- [FICA](https://randtrail.com/tax-regulation/fica/): Financial Intelligence Centre and crypto.
+- [Legal & Compliance](https://randtrail.com/tax-regulation/legal-compliance/): The legal landscape for crypto in South Africa.
+
+## About & policies
+- [About](https://randtrail.com/about.html): Who runs RandTrail and how we work.
+- [Editorial Policy](https://randtrail.com/editorial-policy.html): How we research and fact-check.
+- [Affiliate Disclosure](https://randtrail.com/affiliate-disclosure.html): How we earn from affiliate links.
+- [Risk Disclosure](https://randtrail.com/risk-disclosure.html): The risks of using crypto.
+- [Privacy](https://randtrail.com/privacy.html): What data we collect.
+- [Disclaimer](https://randtrail.com/disclaimer.html): Not financial, tax or legal advice.
+- [Contact](https://randtrail.com/contact.html): How to reach us.
