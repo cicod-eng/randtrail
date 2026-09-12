@@ -179,7 +179,7 @@ def footer(p):
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="risk">Cryptocurrency is highly volatile and involves significant market, custody and counterparty risk. You may lose some or all of the money you invest. In South Africa, crypto assets are regulated as financial products, and income or gains from crypto may be subject to tax under SARS rules. RandTrail provides educational information only and does not provide financial, investment, legal or tax advice.</p>
+        <p class="risk">Cryptocurrency is highly volatile and involves significant market, custody and counterparty risk. You may lose some or all of the money you invest. In South Africa, crypto assets fall within the financial-services regulatory framework, and certain crypto asset service providers are subject to FSCA licensing requirements. Income or gains from crypto may be subject to tax under SARS rules. RandTrail provides educational information only and does not provide financial, investment, legal or tax advice.</p>
         <div class="legal">
           <span>&copy; 2026 RandTrail. Not financial advice.</span>
           <span>
