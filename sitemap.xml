@@ -2,18 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://randtrail.com/</loc><lastmod>2026-09-12</lastmod><priority>1.0</priority></url>
   <url><loc>https://randtrail.com/start-here/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://randtrail.com/start-here/crypto-basics/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/start-here/bitcoin/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/start-here/stablecoins/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/start-here/beginner-guides/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
   <url><loc>https://randtrail.com/exchanges/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://randtrail.com/exchanges/binance/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://randtrail.com/exchanges/okx/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://randtrail.com/exchanges/binance-vs-okx/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://randtrail.com/buy-sell/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://randtrail.com/buy-sell/buy-crypto/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/buy-sell/sell-crypto/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/buy-sell/zar-deposits/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/buy-sell/withdrawals/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/buy-sell/p2p/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
   <url><loc>https://randtrail.com/buy-sell/how-to-buy-usdt-south-africa/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://randtrail.com/buy-sell/how-to-deposit-zar-on-binance/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://randtrail.com/buy-sell/how-to-withdraw-from-binance/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://randtrail.com/wallets-safety/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://randtrail.com/wallets-safety/crypto-wallets/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/wallets-safety/account-security/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/wallets-safety/transfers-networks/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
+  <url><loc>https://randtrail.com/wallets-safety/scam-prevention/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
   <url><loc>https://randtrail.com/tax-regulation/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://randtrail.com/tax-regulation/is-binance-legal-south-africa/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://randtrail.com/tax-regulation/crypto-tax/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://randtrail.com/tax-regulation/is-binance-legal-south-africa/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://randtrail.com/tax-regulation/sars/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/tax-regulation/fsca-casp/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/tax-regulation/fica/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://randtrail.com/tax-regulation/legal-compliance/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
   <url><loc>https://randtrail.com/about.html</loc><lastmod>2026-09-12</lastmod><priority>0.3</priority></url>
   <url><loc>https://randtrail.com/editorial-policy.html</loc><lastmod>2026-09-12</lastmod><priority>0.3</priority></url>
   <url><loc>https://randtrail.com/affiliate-disclosure.html</loc><lastmod>2026-09-12</lastmod><priority>0.3</priority></url>
