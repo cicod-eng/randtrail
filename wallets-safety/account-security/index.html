@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Account Security in SA: SIM-Swap Defence | RandTrail</title>
+  <title>Crypto Account Security in SA: SIM Swap &amp; 2FA | RandTrail</title>
   <meta name="description" content="How to protect your crypto accounts in South Africa — stop SIM-swap fraud, switch SMS 2FA to an authenticator app, and lock down your exchange and email.">
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="%23007A4D"/><text x="50" y="68" font-size="54" font-weight="bold" text-anchor="middle" fill="%23C9A227" font-family="Arial">R</text></svg>'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,8 +53,8 @@
     </div>
 
     <h2>Why SIM-swap risk deserves special attention in South Africa</h2>
-    <p>SIM-swap fraud is not a theory here; it is a measurable, persistent problem. South Africa&rsquo;s banking risk centre <a href="https://www.sabric.co.za/" target="_blank" rel="noopener">SABRIC</a> recorded <strong>7,657 SIM-swap incidents in 2022 &mdash; 76% of all mobile banking fraud</strong> that year, down from 87% the year before but still the dominant technique. Those are banking figures, not crypto figures, but the mechanism transfers directly: an SMS one-time PIN follows the <em>SIM</em>, not your physical phone, so once a number is moved, the attacker receives your codes without ever touching your device. A 2026 BioCatch survey found <strong>75% of South African bank fraud leaders</strong> reported increasing fraud attempts at their institutions, and local outlets flagged a <a href="https://www.citizen.co.za/alex-news/news-headlines/local-news/2026/07/21/public-urged-to-stay-vigilant-amid-rise-in-sim-swap-fraud/" target="_blank" rel="noopener">spike in SIM-swap incidents</a> within a two-week stretch in July 2026.</p>
-    <p>Two features make crypto accounts an especially attractive target for this kind of takeover. First, an on-chain transfer, once made, is generally irreversible: there is no fraud desk to reverse it the way a bank can claw back a card payment. Second, crypto accounts are usually reset through email and phone &mdash; exactly the two layers a SIM-swap attack compromises &mdash; rather than through a branch or call centre that might ask harder questions. That combination is why the defensive order below starts with SMS.</p>
+    <p>SIM-swap fraud is not a theory here; it is a measurable, persistent problem. South Africa&rsquo;s banking risk centre <a href="https://www.sabric.co.za/" target="_blank" rel="noopener">SABRIC</a> reported that SIM swaps formed part of the modus operandi in <strong>7,657 mobile-banking fraud incidents in 2022, representing 76% of reported incidents in that channel</strong>. Those are banking figures, not crypto figures, but the mechanism transfers directly: an SMS one-time PIN follows the <em>SIM</em>, not your physical phone, so once a number is moved, the attacker receives your codes without ever touching your device. A 2026 BioCatch survey found <strong>75% of South African bank fraud leaders</strong> reported increasing fraud attempts at their institutions, and local outlets flagged a <a href="https://www.citizen.co.za/alex-news/news-headlines/local-news/2026/07/21/public-urged-to-stay-vigilant-amid-rise-in-sim-swap-fraud/" target="_blank" rel="noopener">spike in SIM-swap incidents</a> within a two-week stretch in July 2026.</p>
+    <p>Two features make crypto accounts an especially attractive target for this kind of takeover. First, an on-chain transfer, once made, is generally irreversible: there is no fraud desk to reverse it the way a bank can claw back a card payment. Second, many crypto exchange account-recovery flows involve email or mobile verification &mdash; two layers that can become vulnerable when a phone number or email account is compromised. That combination is why the defensive order below starts with SMS.</p>
 
     <h2>Step 1: Replace SMS 2FA with an authenticator app</h2>
     <p>An authenticator app generates codes <em>on your device</em>, not through your phone number, so a stolen number gets the attacker nothing. Do this on your <strong>primary email first</strong>, then on every exchange and wallet account.</p>
@@ -71,7 +71,7 @@
     <p>Your email can reset almost every other account you own, so it deserves better protection than the exchange itself.</p>
     <ul class="cross-list">
       <li><strong>Put an authenticator app on the email account</strong>, exactly as in Step 1.</li>
-      <li><strong>Remove your phone number as a recovery method.</strong> A phone number on the account is a SIM-swap waiting to happen &mdash; it lets an attacker reset the email from a swapped number. Remove secondary email recovery options too, or replace them with ones you control tightly.</li>
+      <li><strong>Avoid relying on your phone number as the only recovery method.</strong> If your email provider allows stronger alternatives such as an authenticator, passkey or recovery codes, prefer those over SMS-based recovery. Review secondary recovery emails as well, and make sure any account capable of recovering your primary email has equally strong security.</li>
       <li><strong>Use a dedicated email address for crypto</strong> that you do not use for shopping, social media or mailing lists. Fewer places holding that address means fewer breach lists it can appear on.</li>
       <li><strong>Check forwarding rules and logged-in devices.</strong> After a takeover, attackers often add a forwarding rule so they keep reading your mail even after you change the password. Delete anything you did not set up yourself.</li>
     </ul>
@@ -82,7 +82,7 @@
     <h2>Step 4: Turn on your exchange&rsquo;s withdrawal locks</h2>
     <p>This is where a compromised login stops being a total loss. <a href="../../exchanges/binance/">Binance</a> gives you three controls that matter most, all in the account&rsquo;s security settings:</p>
     <ul class="cross-list">
-      <li><strong>Anti-phishing code.</strong> You create a short code (Binance currently allows a <strong>6&ndash;8 character</strong> code with character requirements) that appears in every genuine email the exchange sends you. If an email claims to be from Binance but does not carry your code, it is phishing &mdash; regardless of how good the branding looks.</li>
+      <li><strong>Anti-phishing code.</strong> You create a personalised <strong>6&ndash;8 character</strong> code that appears in legitimate Binance communications, helping you tell genuine messages apart from phishing attempts. If a message claims to be from Binance but does not carry your code, treat it as suspicious.</li>
       <li><strong>Withdrawal address whitelist.</strong> Withdrawals are limited to addresses you have pre-approved. Adding a new address triggers email verification and a safety delay, so even a fully compromised login cannot simply drain funds to an unknown wallet.</li>
       <li><strong>Passkeys.</strong> Sign in with your device&rsquo;s fingerprint or face instead of a password. The credential stays on your device and resists phishing and SIM-swap, because there is no code or password to intercept.</li>
     </ul>
