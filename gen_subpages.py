@@ -131,7 +131,7 @@ page("buy-sell/zar-deposits/index.html", "Buy & Sell", "Buy &amp; Sell", "ZAR De
     </ul>
 """)
 
-page("buy-sell/withdrawals/index.html", "Buy & Sell", "Buy &amp; Sell", "Withdrawals",
+page("buy-sell/withdrawals/index.html", "Buy & Sell", "Buy &amp; Sell", "Cash Out",
      "Withdraw Crypto to a South African Bank",
      "How to withdraw crypto or ZAR from an exchange to a South African bank account, how long it takes, and what it costs.",
      """

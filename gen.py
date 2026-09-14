@@ -44,7 +44,7 @@ NAV = [
         ("Buy Crypto", "buy-sell/buy-crypto/"),
         ("Sell Crypto", "buy-sell/sell-crypto/"),
         ("ZAR Deposits", "buy-sell/zar-deposits/"),
-        ("Withdrawals", "buy-sell/withdrawals/"),
+        ("Cash Out", "buy-sell/withdrawals/"),
         ("P2P", "buy-sell/p2p/"),
     ]),
     ("Wallets & Safety", "wallets-safety/", [
@@ -73,7 +73,7 @@ FOOT_LINKS = [
     ("Buy & Sell", [("Buy Crypto", "buy-sell/buy-crypto/"),
                     ("Sell Crypto", "buy-sell/sell-crypto/"),
                     ("ZAR Deposits", "buy-sell/zar-deposits/"),
-                    ("Withdrawals", "buy-sell/withdrawals/"),
+                    ("Cash Out", "buy-sell/withdrawals/"),
                     ("P2P", "buy-sell/p2p/")]),
     ("Wallets & Safety", [("Crypto Wallets", "wallets-safety/crypto-wallets/"),
                           ("Account Security", "wallets-safety/account-security/"),
@@ -300,7 +300,7 @@ def hub_buy_sell():
           <div class="card"><div class="card-icon green"><svg viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m5 12 7 7 7-7"/></svg></div><h3><a href="buy-crypto/">Buy Crypto</a></h3><p>How to buy USDT, Bitcoin and other assets with rand — step by step.</p></div>
           <div class="card"><div class="card-icon orange"><svg viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg></div><h3><a href="sell-crypto/">Sell Crypto</a></h3><p>How to sell USDT and other assets back into rand.</p></div>
           <div class="card"><div class="card-icon green"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M12 8v8"/><path d="m8 12 4 4 4-4"/></svg></div><h3><a href="zar-deposits/">ZAR Deposits</a></h3><p>Instant EFT, standard EFT and Capitec — how to deposit rand and how long it takes.</p></div>
-          <div class="card"><div class="card-icon blue"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 8v8"/><path d="m8 12 4 4 4-4"/></svg></div><h3><a href="withdrawals/">Withdrawals</a></h3><p>How to withdraw ZAR to a South African bank account and how long it takes.</p></div>
+          <div class="card"><div class="card-icon blue"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 8v8"/><path d="m8 12 4 4 4-4"/></svg></div><h3><a href="withdrawals/">Cash Out</a></h3><p>How to withdraw ZAR to a South African bank account and how long it takes.</p></div>
           <div class="card"><div class="card-icon orange"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3><a href="p2p/">P2P</a></h3><p>Buying and selling directly with other users — and how to stay safe.</p></div>
         </div>
       </div>
