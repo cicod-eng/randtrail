@@ -264,7 +264,7 @@ def hub_exchanges():
         <div class="cta-box">
           <h2><img src="../assets/binance-logo.png" alt="Binance" width="24" height="24" style="vertical-align:-5px;margin-right:9px">Considering Binance?</h2>
           <p>If, after comparing the available options, you decide Binance fits your needs, you can use the link below to visit its registration page. Check the fees, supported payment methods and crypto withdrawal options shown for your account before depositing funds.</p>
-          <a href="https://www.binance.com/join?ref=BN522" class="btn btn-primary" rel="nofollow sponsored noopener" target="_blank">Visit Binance &rarr;</a>
+          <a href="https://www.binance.com/join?ref=GPYBA6R3" class="btn btn-primary" rel="nofollow sponsored noopener" target="_blank">Visit Binance &rarr;</a>
           <p class="cta-disclosure"><strong>Affiliate disclosure:</strong> This is an affiliate link. If you sign up through it, RandTrail may earn a commission at no additional cost to you. This does not affect our reviews, comparisons or editorial conclusions. See our <a href="../affiliate-disclosure.html">affiliate disclosure</a>.</p>
         </div>
 
@@ -550,7 +550,7 @@ if __name__ == "__main__":
     hub_buy_sell()
     hub_wallets()
     hub_tax()
-    landing("binance", "Binance", "exchanges/binance", "https://www.binance.com/join?ref=BN522")
+    landing("binance", "Binance", "exchanges/binance", "https://www.binance.com/join?ref=GPYBA6R3")
     landing("okx", "OKX", "exchanges/okx", "https://www.okx.com/join/OK800")
     make_legal_pages()
     print("done")
