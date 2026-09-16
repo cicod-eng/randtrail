@@ -9,10 +9,7 @@ import os
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-FAVICON = ("<link rel=\"icon\" href='data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" "
-           "viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"48\" fill=\"%23007A4D\"/>"
-           "<text x=\"50\" y=\"68\" font-size=\"54\" font-weight=\"bold\" text-anchor=\"middle\" "
-           "fill=\"%23C9A227\" font-family=\"Arial\">R</text></svg>'>")
+FAVICON = '<link rel="icon" type="image/svg+xml" href="https://randtrail.com/assets/favicon.svg">'
 
 FONTS = ('  <link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
