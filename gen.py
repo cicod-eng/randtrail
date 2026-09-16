@@ -121,6 +121,14 @@ def header(p, active_label, title, desc, canonical):
   <link rel="canonical" href="{canonical}">
   <meta property="og:site_name" content="RandTrail">
   <meta property="og:type" content="website">
+  <meta property="og:title" content="{title}">
+  <meta property="og:description" content="{desc}">
+  <meta property="og:url" content="{canonical}">
+  <meta property="og:image" content="https://randtrail.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://randtrail.com/assets/og-image.png">
 </head>
 <body>
 
