@@ -9,7 +9,8 @@ import os
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-FAVICON = '<link rel="icon" type="image/svg+xml" href="https://randtrail.com/assets/favicon.svg">'
+FAVICON = ('<link rel="icon" type="image/svg+xml" href="https://randtrail.com/assets/favicon.svg">\n'
+           '  <link rel="icon" type="image/png" sizes="32x32" href="https://randtrail.com/assets/favicon.png">')
 
 FONTS = ('  <link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
