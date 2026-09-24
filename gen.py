@@ -31,6 +31,7 @@ NAV = [
         ("Crypto Basics", "start-here/crypto-basics/"),
         ("Bitcoin", "start-here/bitcoin/"),
         ("Stablecoins", "start-here/stablecoins/"),
+        ("Real-World Assets", "start-here/real-world-assets/"),
         ("Beginner Guides", "start-here/beginner-guides/"),
     ]),
     ("Exchanges", "exchanges/", [
@@ -64,6 +65,7 @@ FOOT_LINKS = [
     ("Start Here", [("Crypto Basics", "start-here/crypto-basics/"),
                     ("Bitcoin", "start-here/bitcoin/"),
                     ("Stablecoins", "start-here/stablecoins/"),
+                    ("Real-World Assets", "start-here/real-world-assets/"),
                     ("Beginner Guides", "start-here/beginner-guides/")]),
     ("Exchanges", [("Binance", "exchanges/binance/"),
                    ("OKX", "exchanges/okx/"),
